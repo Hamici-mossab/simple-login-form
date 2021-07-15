@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+    <form>
+        <div class="header">
+            <div id="up"><p>Sing UP</p></div>
+            <div id="in"><p>Sign IN</p></div>
+        </div>
+
+        <div class="container">
+            <div id="signUp" class="signUp">
+                <input type="text" placeholder="User name" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="password" placeholder="Password" required>
+                <label class="country" for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="algeria">Algeria</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+                <div>
+                    <input type="checkbox">
+                    <p>i am older than 18 yo</p>
+                </div>
+                <input type="submit" value="Sign Up">
+            </div>
+            <div id="signIn" class="signIn">
+                <input type="text" placeholder="User name" required >
+                <input type="password" placeholder="Passoword" required>
+                <input type="submit" value="Sign In">
+            </div>
+
+        </div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
